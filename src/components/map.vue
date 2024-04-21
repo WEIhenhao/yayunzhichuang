@@ -49,7 +49,7 @@ export default {
                 address: '马尼拉',
                 countries: '18个',
                 events: '8大项，76小项',
-                athletes: '2026人',
+                athletes: '970人',
                 link: 'https://baike.baidu.com/item/1954%E5%B9%B4%E9%A9%AC%E5%B0%BC%E6%8B%89%E4%BA%9A%E8%BF%90%E4%BC%9A/5438946?structureClickId=5438946&structureId=aa3243d2527c861aa52f9885&structureItemId=aeb9b7bb13b40f7b3b27205b&lemmaFrom=starMapContent_star&fromModule=starMap_content&lemmaIdFrom=5571856',
                 years: '第二届亚运会'
               }]
@@ -270,7 +270,7 @@ export default {
                 address: '杭州',
                 countries: '45个',
                 events: '40个大项，61个分项，481个小项',
-                athletes: '17492人',
+                athletes: '12500人',
                 link: 'https://baike.sogou.com/v106136485.htm',
                 years: '第十三届亚运会'
               }]

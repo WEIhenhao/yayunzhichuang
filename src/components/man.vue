@@ -31,7 +31,7 @@ export default {
         backgroundColor: '#F5F5F5',
         title: {
           text: '历届亚运会参赛运动员人数变化图',
-          subtext: '数据来源：维基百科',
+          subtext: '数据来源：百度百科',
           itemGap: 5,
           x: 'center',
           y: '1%',
@@ -133,7 +133,7 @@ export default {
           smooth: true,
           symbol: 'circle',
           symbolSize: 10,
-          data: [53, 299, 419, 377, 365, 471, 562, 416, 474, 502, 550, 569, 564
+          data: [489, 970, 1422, 1545, 1945, 2500, 3100, 3842, 3345, 4839, 6122, 6828, 6554, 7711, 9520, 9704, 9501, 11300, 12500
           ],
           itemStyle: {
             normal: {
