@@ -1,8 +1,8 @@
 <template>
-<div class="screen-container">
-  <div class="screen-head">
+<div class="screen-container" style="background: blue!important;">
+  <div class="screen-head" style="background: linear-gradient(to bottom, rgb(120,39,248), rgb(255,255,255));!important;">
     <div class="head-left">
-      <div style="height: 100%;width: 100%; position: absolute; top: 10px; left: 10px;" class="log-bg">
+      <div style="height: 100%;border-radius: 5px; position: absolute;" class="log-bg">
         <img src="../../public/static/img/logo1.png" style="width: 100%; height: 100%;">
       </div>
     </div>
@@ -10,9 +10,8 @@
       <div class="title">
        <div class="title_">
          <div class="title_">
-           <span class="iconfont" style="font-size: 25px;">&#xe63b;</span>
-           亚洲运动会可视化系统
-           <span class="iconfont" style="font-size: 25px;">&#xe646;</span>
+           <span class="iconfont" style="font-size: 50px;color: white;font-family: 'Berlin Sans FB'">&#xe644;</span>
+           <span style="color: white;font-size: 40px">亚洲运动会可视化系统</span>
          </div>
        </div>
       </div>
@@ -28,7 +27,7 @@
         <a href="http://127.0.0.1:8080/screen2" class="tag_aa">杭州亚运会</a></div></div>
       </div>
     </div>
-    <div class="head-right">
+    <div class="head-right" style="border-radius: 5px;top: 0" >
       <img src="../../public/static/img/logo2.png" style="width: 100%; height: 100%;">
     </div>
   </div>
@@ -229,7 +228,7 @@ export default {
 <style>
 @font-face {
   font-family: electronicFont;
-  src: url(../assets/font/DS-DIGIT.TTF);
+  src: url("~@/assets/font/DS-DIGIT.TTF");
 }
 body {
   margin: 0;
@@ -254,8 +253,6 @@ html {
   height: 130px;
   margin-bottom: 10px;
   position: relative;
-  background: url(../../public/static/img/head-bg.png) no-repeat;
-  background-size: auto;
 }
 .screen-body{
   width: 100%;
@@ -364,11 +361,11 @@ html {
   height: 100%;
   width: 25%;
   float: left;
-/*  margin-left: 10px; */
+
   position: relative;
 }
-.log-bg{
-   background: url(../../public/static/img/350.jpg);
+.log-bg {
+  background-image: linear-gradient(to right, rgb(120, 39, 248), white);
 }
 .head-middle{
   height: 100%;
@@ -382,8 +379,7 @@ html {
   float: left;
   position: relative;
   top: 10px;
-  background: url(../../public/static/img/350.jpg);
-  background-repeat: no-repeat;
+  background-image: linear-gradient(to left, rgb(120, 39, 248), white);
 }
 .head-right-top{
   width: 100%;
@@ -449,7 +445,7 @@ html {
   color: black;
   font-size: 25px;
   text-decoration:none;
-  color: #4169E1;
+  color: #e7f4ff;
 }
 .tag_aa:hover{
   color: hotpink;
