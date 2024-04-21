@@ -1,3 +1,4 @@
+/**中国历届参赛人数变化图**/
 <template>
   <div class="com-container">
     <div class="com-chart" ref="echarts1_ref"></div>

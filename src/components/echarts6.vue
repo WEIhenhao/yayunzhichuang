@@ -1,3 +1,4 @@
+/**中国运动员与国外运动员热度排行榜**/
 <template>
   <div class="com-container">
     <div class="com-chart" ref="echarts6_ref"></div>

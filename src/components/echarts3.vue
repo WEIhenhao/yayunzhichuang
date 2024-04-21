@@ -1,3 +1,4 @@
+/**杭州亚运会各省份代表团人数**/
 <template>
   <div class="com-container">
     <div class="com-chart" ref="echarts3_ref"></div>
@@ -165,7 +166,7 @@ export default {
       const option = {
         backgroundColor: '#F5F5F5',
         title: {
-          text: '北京冬残奥会各省份代表团人数',
+          text: '杭州亚运会各省份代表团人数',
           subtext: '数据来源:澎湃新闻',
           x: 'center',
           y: '3%',

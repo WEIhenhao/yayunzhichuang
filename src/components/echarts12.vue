@@ -1,3 +1,4 @@
+/**各比赛日中国代表团奖牌分布**/
 <template>
   <div class="com-container">
     <div class="com-chart" ref="echarts12_ref"></div>

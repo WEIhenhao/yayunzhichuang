@@ -1,3 +1,4 @@
+/**最受关注的外国代表队排行榜**/
 <template>
   <div class="com-container">
     <div class="com-chart" ref="echarts1_ref"></div>

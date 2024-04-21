@@ -10,20 +10,20 @@
       <div class="title">
        <div class="title_">
          <span class="iconfont" style="font-size: 25px;">&#xe63b;</span>
-         冬残奥会可视化系统
+         亚运会可视化系统
          <span class="iconfont" style="font-size: 25px;">&#xe646;</span>
        </div>
       </div>
       <div class="tag_a">
         <div class="tabbar"><div class="tabbar_">
         <span class="iconfont" style="font-size: 25px;">&#xe63a;</span>
-        <a href="http://127.0.0.1:8080" class="tag_aa">世界冬残奥史</a></div></div>
+        <a href="http://127.0.0.1:8080" class="tag_aa">世界亚运史</a></div></div>
         <div class="tabbar"><div class="tabbar_">
         <span class="iconfont" style="font-size: 25px;">&#xe640;</span>
-        <a href="http://127.0.0.1:8080/screen1" class="tag_aa">中国冬残奥史</a></div></div>
+        <a href="http://127.0.0.1:8080/screen1" class="tag_aa">中国亚运史</a></div></div>
         <div class="tabbar"><div class="tabbar_">
         <span class="iconfont" style="font-size: 25px;">&#xe64a;</span>
-        <a href="http://127.0.0.1:8080/screen2" class="tag_aa">北京冬残奥会</a></div></div>
+        <a href="http://127.0.0.1:8080/screen2" class="tag_aa">北京亚运会</a></div></div>
       </div>
     </div>
     <div class="head-right">

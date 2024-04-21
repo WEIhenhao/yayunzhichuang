@@ -1,3 +1,4 @@
+/**历届亚运会参赛运动员人数变化图**/
 <template>
   <div class="com-container">
     <div class="com-chart" ref="mn_ref"></div>
@@ -29,7 +30,7 @@ export default {
       const option = {
         backgroundColor: '#F5F5F5',
         title: {
-          text: '历届冬残奥会参赛运动员人数变化图',
+          text: '历届亚运会参赛运动员人数变化图',
           subtext: '数据来源：维基百科',
           itemGap: 5,
           x: 'center',
@@ -64,7 +65,7 @@ export default {
             fontSize: 15
           },
           boundaryGap: true,
-          data: ['第一届', '第二届', '第三届', '第四届', '第五届', '第六届', '第七届', '第八届', '第九届', '第十届', '第十一届', '第十二届', '第十三届'
+          data: ['第一届', '第二届', '第三届', '第四届', '第五届', '第六届', '第七届', '第八届', '第九届', '第十届', '第十一届', '第十二届', '第十三届', '第十四届', '第十五届', '第十六届', '第十七届', '第十八届', '第十九届'
           ]
         },
         yAxis: [{

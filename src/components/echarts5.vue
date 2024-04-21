@@ -1,3 +1,4 @@
+/**杭州亚运会比赛大小项目分布**/
 <template>
   <div class="com-container">
     <div class="com-chart" ref="echarts5_ref"></div>
@@ -43,7 +44,7 @@ export default {
       const option = {
         backgroundColor: '#F5F5F5',
         title: {
-          text: '北京冬残奥会比赛大小项目分布',
+          text: '杭州亚运会比赛大小项目分布',
           subtext: '数据来源：维基百科',
           itemGap: 5,
           x: 'center',

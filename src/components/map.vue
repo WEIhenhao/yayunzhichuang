@@ -1,3 +1,4 @@
+/**亚运会发展史***/
 <template>
   <div class="com-container">
     <div class="com-chart" ref="map_ref"></div>
@@ -29,173 +30,252 @@ export default {
       var data = [{
               time: '第一届',
               data: [{
-                name: '瑞典',
-                value: [9.5016, 46.295, '瑞典'],
-                year: '1976年',
-                address: '恩舍尔兹维克',
-                countries: '16个',
-                events: '53项',
-                athletes: '53人',
-                link: 'https://baike.sogou.com/v526256.htm?fromTitle=%E7%AC%AC%E4%B8%80%E5%B1%8A%E5%A5%A5%E8%BF%90%E4%BC%9A',
-                years: '第一届冬残奥会'
+                name: '印度',
+                value: [28.6139, 77.209, '印度'],
+                year: '1951年',
+                address: '新德里',
+                countries: '11个',
+                events: '6大项，57小项',
+                athletes: '489人',
+                link: 'https://baike.baidu.com/item/1951%E5%B9%B4%E6%96%B0%E5%BE%B7%E9%87%8C%E4%BA%9A%E8%BF%90%E4%BC%9A/5439088?structureClickId=5439088&structureId=aa3243d2527c861aa52f9885&structureItemId=fe67b47a4a12420207e9925b&lemmaFrom=starMapContent_star&fromModule=starMap_content&lemmaIdFrom=5571856',
+                years: '第一届亚运会'
               }]
             }, {
               time: '第二届',
               data: [{
-                name: '挪威',
-                value: [9.5016, 46.295, '挪威'],
-                year: '1980年',
-                address: '耶卢',
+                name: '菲律宾',
+                value: [14.5995, 120.9842, '菲律宾'],
+                year: '1954年',
+                address: '马尼拉',
                 countries: '18个',
-                events: '63项',
-                athletes: '299人',
-                link: 'https://baike.sogou.com/v543284.htm?fromTitle=%E7%AC%AC2%E5%B1%8A%E5%86%AC%E5%A5%A5%E4%BC%9A',
-                years: '第二届冬残奥会'
+                events: '8大项，76小项',
+                athletes: '2026人',
+                link: 'https://baike.baidu.com/item/1954%E5%B9%B4%E9%A9%AC%E5%B0%BC%E6%8B%89%E4%BA%9A%E8%BF%90%E4%BC%9A/5438946?structureClickId=5438946&structureId=aa3243d2527c861aa52f9885&structureItemId=aeb9b7bb13b40f7b3b27205b&lemmaFrom=starMapContent_star&fromModule=starMap_content&lemmaIdFrom=5571856',
+                years: '第二届亚运会'
               }]
             }, {
               time: '第三届',
               data: [{
-                name: '奥地利',
-                value: [6, 46.295, '奥地利'],
-                year: '1984年',
-                address: '因斯布鲁克',
-                countries: '22个',
-                events: '66项',
-                athletes: '419人',
-                link: 'https://baike.sogou.com/v543280.htm?fromTitle=%E7%AC%AC3%E5%B1%8A%E5%86%AC%E5%A5%A5%E4%BC%9A',
-                years: '第三届冬残奥会'
+                name: '日本',
+                value: [35.6895, 139.6917, '日本'],
+                year: '1958年',
+                address: '雅加达',
+                countries: '20个',
+                events: '13大项，97小项',
+                athletes: '1422人',
+                link: 'https://baike.baidu.com/item/1958%E5%B9%B4%E4%B8%9C%E4%BA%AC%E4%BA%9A%E8%BF%90%E4%BC%9A/5571856?structureClickId=5571856&structureId=aa3243d2527c861aa52f9885&structureItemId=703153e222fbf9c87b05f722&lemmaFrom=starMapContent_star&fromModule=starMap_content&lemmaIdFrom=5571856',
+                years: '第三届亚运会'
               }]
             }, {
               time: '第四届',
               data: [{
-                name: '奥地利',
-                value: [9.5016, 46.295, '奥地利'],
-                year: '1988年',
-                address: '因斯布鲁克',
-                countries: '22个',
-                events: '68项',
-                athletes: '377人',
-                link: 'https://baike.sogou.com/v39872.htm?fromTitle=%E7%AC%AC%E5%9B%9B%E5%B1%8A%E5%86%AC%E5%AD%A3%E5%A5%A5%E8%BF%90%E4%BC%9A%EF%BC%881936%E5%B9%B4%EF%BC%89',
-                years: '第四届冬残奥会'
+                name: '印度尼西亚',
+                value: [6.2088, 106.8456, '印度尼西亚'],
+                year: '1962年',
+                address: '雅加达',
+                countries: '17个',
+                events: '13大项，120小项',
+                athletes: '1545人',
+                link: 'https://baike.baidu.com/item/1962%E5%B9%B4%E9%9B%85%E5%8A%A0%E8%BE%BE%E4%BA%9A%E8%BF%90%E4%BC%9A/5572073?structureClickId=5572073&structureId=aa3243d2527c861aa52f9885&structureItemId=60005a461351256713e12e23&lemmaFrom=starMapContent_star&fromModule=starMap_content&lemmaIdFrom=5571856',
+                years: '第四届亚运会'
               }]
             }, {
               time: '第五届',
               data: [{
-                name: '法国',
-                value: [9.5016, 46.295, '法国'],
-                year: '1992年',
-                address: '蒂涅-阿尔贝维尔',
-                countries: '24个',
-                events: '79项',
-                athletes: '365人',
-                link: 'https://baike.sogou.com/v143010637.htm?fromTitle=%E7%AC%AC%E4%BA%94%E5%B1%8A%E5%86%AC%E5%A5%A5%E4%BC%9A',
-                years: '第五届冬残奥会'
+                name: '泰国',
+                value: [13.7563, 100.5018, '泰国'],
+                year: '1966年',
+                address: '曼谷',
+                countries: '18个',
+                events: '14大项，143小项',
+                athletes: '1945人',
+                link: 'https://baike.baidu.com/item/1966%E5%B9%B4%E6%9B%BC%E8%B0%B7%E4%BA%9A%E8%BF%90%E4%BC%9A/5571752?structureClickId=5571752&structureId=aa3243d2527c861aa52f9885&structureItemId=e3ce1325665821e731416f22&lemmaFrom=starMapContent_star&fromModule=starMap_content&lemmaIdFrom=5571856',
+                years: '第五届亚运会'
               }]
             }, {
               time: '第六届',
               data: [{
-                name: '挪威',
-                value: [9.5016, 46.295, '挪威'],
-                year: '1994年',
-                address: '利勒哈默尔',
-                countries: '31个',
-                events: '73项',
-                athletes: '471人',
-                link: 'https://baike.sogou.com/v543260.htm?fromTitle=%E7%AC%AC6%E5%B1%8A%E5%86%AC%E5%A5%A5%E4%BC%9A',
-                years: '第六届冬残奥会'
+                name: '泰国',
+                value: [13.7563, 100.5018, '泰国'],
+                year: '1970年',
+                address: '曼谷',
+                countries: '18个',
+                events: '13大项，135小项',
+                athletes: '2500人',
+                link: 'https://baike.baidu.com/item/1970%E5%B9%B4%E6%9B%BC%E8%B0%B7%E4%BA%9A%E8%BF%90%E4%BC%9A/5439390?structureClickId=5439390&structureId=aa3243d2527c861aa52f9885&structureItemId=5c29a1b977d926f14c877c25&lemmaFrom=starMapContent_star&fromModule=starMap_content&lemmaIdFrom=5571856',
+                years: '第六届亚运会'
               }]
             }, {
               time: '第七届',
               data: [{
-                name: '日本',
-                value: [9.5016, 46.295, '日本'],
-                year: '1998年',
-                address: '长野',
-                countries: '31个',
-                events: '64项',
-                athletes: '562人',
-                link: 'https://baike.sogou.com/v69090254.htm?fromTitle=%E7%AC%AC7%E5%B1%8A%E5%86%AC%E5%A5%A5%E4%BC%9A',
-                years: '第七届冬残奥会'
+                name: '伊朗',
+                value: [35.6892, 51.3890, '伊朗'],
+                year: '1974年',
+                address: '德黑兰',
+                countries: '25个',
+                events: '17个大项,185个小项',
+                athletes: '3100人',
+                link: 'https://baike.baidu.com/item/1974%E5%B9%B4%E5%BE%B7%E9%BB%91%E5%85%B0%E4%BA%9A%E8%BF%90%E4%BC%9A/5439310?structureClickId=5439310&structureId=aa3243d2527c861aa52f9885&structureItemId=427d0d5a0bd587c9065bcc24&lemmaFrom=starMapContent_star&fromModule=starMap_content&lemmaIdFrom=5571856',
+                years: '第七届亚运会'
               }]
             }, {
               time: '第八届',
               data: [{
-                name: '美国',
-                value: [9.5016, 46.295, '美国'],
-                year: '2002年',
-                address: '盐湖城',
-                countries: '36个',
-                events: '61项',
-                athletes: '416人',
-                link: 'https://baike.sogou.com/v128509450.htm?fromTitle=%E7%AC%AC8%E5%B1%8A%E5%86%AC%E5%A5%A5%E4%BC%9A',
-                years: '第八届冬残奥会'
+                name: '泰国',
+                value: [13.7563, 100.5018, '泰国'],
+                year: '1978年',
+                address: '曼谷',
+                countries: '25个',
+                events: '19大项，201小项',
+                athletes: '3842人',
+                link: 'https://baike.baidu.com/item/1978%E5%B9%B4%E6%9B%BC%E8%B0%B7%E4%BA%9A%E8%BF%90%E4%BC%9A/5439224?structureClickId=5439224&structureId=aa3243d2527c861aa52f9885&structureItemId=013e9d86d304c2966d2a1a24&lemmaFrom=starMapContent_star&fromModule=starMap_content&lemmaIdFrom=5571856',
+                years: '第八届亚运会'
               }]
             }, {
               time: '第九届',
               data: [{
-                name: '意大利',
-                value: [9.5016, 46.295, '意大利'],
-                year: '2006年',
-                address: '都灵',
-                countries: '38个',
-                events: '58项',
-                athletes: '474人',
-                link: 'http://www.olympic.cn/games/winter/dongjiaoyunhuiliebiao/2007/1011/25209.html',
-                years: '第九届冬残奥会'
+                name: '印度',
+                value: [28.6139, 77.209, '印度'],
+                year: '1982年',
+                address: '新德里',
+                countries: '33个',
+                events: '21大项，196小项',
+                athletes: '3345人',
+                link: 'https://baike.baidu.com/item/1982%E5%B9%B4%E6%96%B0%E5%BE%B7%E9%87%8C%E4%BA%9A%E8%BF%90%E4%BC%9A/5439159?structureClickId=5439159&structureId=aa3243d2527c861aa52f9885&structureItemId=52088533a743eaec3bc55b24&lemmaFrom=starMapContent_star&fromModule=starMap_content&lemmaIdFrom=5571856',
+                years: '第九届亚运会'
               }]
             }, {
               time: '第十届',
               data: [{
-                name: '加拿大',
-                value: [9.5016, 46.295, '加拿大'],
-                year: '2010年',
-                address: '温哥华-威士拿',
-                countries: '44个',
-                events: '64项',
-                athletes: '502人',
-                link: 'https://baike.sogou.com/v76159.htm?fromTitle=%E7%AC%AC10%E5%B1%8A%E5%86%AC%E5%A5%A5%E4%BC%9A',
-                years: '第十届冬残奥会'
+                name: '韩国',
+                value: [37.5665, 126.9780, '韩国'],
+                year: '1986年',
+                address: '汉城',
+                countries: '27个',
+                events: '25大项',
+                athletes: '4839人',
+                link: 'https://baike.baidu.com/item/1986%E5%B9%B4%E6%B1%89%E5%9F%8E%E4%BA%9A%E8%BF%90%E4%BC%9A/5438875?structureClickId=5438875&structureId=aa3243d2527c861aa52f9885&structureItemId=dfe13240e28b0f68beb97f5b&lemmaFrom=starMapContent_star&fromModule=starMap_content&lemmaIdFrom=5571856',
+                years: '第十届亚运会'
               }]
             }, {
               time: '第十一届',
               data: [{
-                name: '俄罗斯',
-                value: [9.5016, 46.295, '俄罗斯'],
-                year: '2014年',
-                address: '索契',
-                countries: '45个',
-                events: '72项',
-                athletes: '550人',
-                link: 'https://baike.sogou.com/v543215.htm?fromTitle=%E7%AC%AC11%E5%B1%8A%E5%86%AC%E5%A5%A5%E4%BC%9A',
-                years: '第十一届冬残奥会'
+                name: '中国',
+                value: [39.9042, 116.4074, '中国'],
+                year: '1990年',
+                address: '北京',
+                countries: '37个',
+                events: '29大项，310小项',
+                athletes: '6122人',
+                link: 'https://baike.baidu.com/item/1990%E5%B9%B4%E5%8C%97%E4%BA%AC%E4%BA%9A%E8%BF%90%E4%BC%9A/5438808?structureClickId=5438808&structureId=aa3243d2527c861aa52f9885&structureItemId=da61672eb91f45bffef3ba5a&lemmaFrom=starMapContent_star&fromModule=starMap_content&lemmaIdFrom=5571856',
+                years: '第十一届亚运会'
               }]
             }, {
               time: '第十二届',
               data: [{
-                name: '韩国',
-                value: [9.5016, 46.295, '韩国'],
-                year: '2018年',
-                address: '平昌',
-                countries: '49个',
-                events: '80项',
-                athletes: '569人',
-                link: 'https://baike.sogou.com/v143774871.htm?fromTitle=%E7%AC%AC12%E5%B1%8A%E5%86%AC%E5%A5%A5%E4%BC%9A',
-                years: '第十二届冬残奥会'
+                name: '日本',
+                value: [34.3853, 132.4553, '日本'],
+                year: '1994年',
+                address: '广岛',
+                countries: '42个',
+                events: '34大项，337小项',
+                athletes: '6828人',
+                link: 'https://baike.baidu.com/item/1994%E5%B9%B4%E5%B9%BF%E5%B2%9B%E4%BA%9A%E8%BF%90%E4%BC%9A/5438655?structureClickId=5438655&structureId=aa3243d2527c861aa52f9885&structureItemId=5a65aebde857b0206976435a&lemmaFrom=starMapContent_star&fromModule=starMap_content&lemmaIdFrom=5571856',
+                years: '第十二届亚运会'
               }]
             }, {
-              time: '第十三届',
+               time: '第十三届',
+                data: [{
+                name: '泰国',
+                value: [13.7563, 100.5018, '泰国'],
+                year: '1998年',
+                address: '曼谷',
+                countries: '41个',
+                events: '36大项，376小项',
+                athletes: '6554人',
+                link: 'https://baike.baidu.com/item/1998%E5%B9%B4%E6%9B%BC%E8%B0%B7%E4%BA%9A%E8%BF%90%E4%BC%9A/5438302?structureClickId=5438302&structureId=aa3243d2527c861aa52f9885&structureItemId=91862abafda8be87950abc58&lemmaFrom=starMapContent_star&fromModule=starMap_content&lemmaIdFrom=5571856',
+                years: '第十三届亚运会'
+              }]
+            }, {
+              time: '第十四届',
+              data: [{
+                name: '韩国',
+                value: [35.1796, 129.0756, '韩国'],
+                year: '2002年',
+                address: '釜山',
+                countries: '44个',
+                events: '38大项，419小项',
+                athletes: '7711人',
+                link: 'https://baike.baidu.com/item/2002%E5%B9%B4%E9%87%9C%E5%B1%B1%E4%BA%9A%E8%BF%90%E4%BC%9A/5438248?structureClickId=5438248&structureId=aa3243d2527c861aa52f9885&structureItemId=9a7035920e287d3e50cdea58&lemmaFrom=starMapContent_star&fromModule=starMap_content&lemmaIdFrom=5571856',
+                years: '第十四届亚运会'
+              }]
+            }, {
+              time: '第十五届',
+              data: [{
+                name: '卡塔尔',
+                value: [25.2769, 51.5185, '卡塔尔'],
+                year: '2006年',
+                address: '多哈',
+                countries: '45个',
+                events: '39大项，424小项',
+                athletes: '9520人',
+                link: 'https://baike.baidu.com/item/2006%E5%B9%B4%E5%A4%9A%E5%93%88%E4%BA%9A%E8%BF%90%E4%BC%9A/5438166?structureClickId=5438166&structureId=aa3243d2527c861aa52f9885&structureItemId=624e65aca79d4c8856133458&lemmaFrom=starMapContent_star&fromModule=starMap_content&lemmaIdFrom=5571856',
+                years: '第十五届亚运会'
+              }]
+            }, {
+              time: '第十六届',
+                data: [{
+                name: '中国',
+                value: [23.1291, 113.2644, '中国'],
+                year: '2010年',
+                address: '广州',
+                countries: '45个',
+                events: '42大项，476小项',
+                athletes: '9704人',
+                link: 'https://baike.sogou.com/v48123.htm?ch=frombaikevr&fromTitle=2010%E5%B9%B4%E5%B9%BF%E5%B7%9E%E4%BA%9A%E8%BF%90%E4%BC%9A',
+                years: '第十六届亚运会'
+              }]
+            }, {
+              time: '第十七届',
+              data: [{
+                name: '韩国',
+                value: [37.4563, 126.7052, '韩国'],
+                year: '2014年',
+                address: '仁川',
+                countries: '45个',
+                events: '36大项，439小项',
+                athletes: '9501人',
+                link: 'https://baike.sogou.com/v11023075.htm?ch=frombaikevr&fromTitle=2014%E5%B9%B4%E4%BB%81%E5%B7%9D%E4%BA%9A%E8%BF%90%E4%BC%9A',
+                years: '第十七届亚运会'
+              }]
+            }, {
+              time: '第十八届',
+              data: [{
+                name: '印度尼西亚',
+                value: [6.2088, 106.8456, '印度尼西亚'],
+                year: '2018年',
+                address: '雅加达',
+                countries: '45个',
+                events: '40大项，465小项',
+                athletes: '11300人',
+                link: 'https://baike.sogou.com/v81094511.htm?ch=frombaikevr&fromTitle=2018%E5%B9%B4%E9%9B%85%E5%8A%A0%E8%BE%BE%E4%BA%9A%E8%BF%90%E4%BC%9A',
+                years: '第十八届亚运会'
+              }]
+            }, {
+              time: '第十九届',
               data: [{
                 name: '中国',
-                value: [9.5016, 46.295, '中国'],
-                year: '2022年',
-                address: '北京',
-                countries: '46个',
-                events: '81项',
-                athletes: '1072人',
-                link: 'https://baike.sogou.com/v10780174.htm?fromTitle=%E7%AC%AC13%E5%B1%8A%E5%86%AC%E5%A5%A5%E4%BC%9A',
-                years: '第十三届冬奥会'
+                value: [30.2741, 120.1551, '中国'],
+                year: '2023年',
+                address: '杭州',
+                countries: '45个',
+                events: '40个大项，61个分项，481个小项',
+                athletes: '17492人',
+                link: 'https://baike.sogou.com/v106136485.htm',
+                years: '第十三届亚运会'
               }]
-            }]
+            }
+            ]
            const option = {
               baseOption: {
                 animationDurationUpdate: 1000,
@@ -237,8 +317,8 @@ export default {
                 },
                 backgroundColor: '#F5F5F5',
                 title: {
-                  text: '冬残奥发展史',
-                  subtext: '数据来源：维基百科',
+                  text: '亚运会发展史',
+                  subtext: '数据来源：百度百科',
                   x: 'center',
                   y: '3%',
                   textStyle: {

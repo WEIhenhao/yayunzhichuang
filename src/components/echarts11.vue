@@ -1,3 +1,4 @@
+/**中国代表团多枚奖牌获得者**/
 <template>
   <div class="com-container">
     <div class="com-chart" ref="echarts11_ref"></div>

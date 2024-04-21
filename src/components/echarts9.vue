@@ -1,3 +1,4 @@
+/**中国代表团参赛席位**/
 <template>
   <div class="com-container">
     <div class="com-chart" ref="echarts9_ref"></div>

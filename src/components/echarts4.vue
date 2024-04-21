@@ -1,3 +1,4 @@
+/**杭州亚运会各参赛国金牌数**/
 <template>
   <div class="com-container">
     <div class="com-chart" ref="echarts4_ref"></div>
@@ -217,7 +218,7 @@ export default {
             }
           },
           title: {
-            text: '北京冬残奥会各参赛国金牌数',
+            text: '杭州亚运会各参赛国金牌数',
             subtext: '数据来源:澎湃新闻',
             x: 'center',
             y: '3%',

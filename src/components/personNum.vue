@@ -32,7 +32,7 @@ export default {
 			const option = {
         backgroundColor: '#F5F5F5',
         title: {
-            text: '冬残奥会项目设置',
+            text: '亚运会项目设置',
             subtext: '数据来源：维基百科',
             itemGap: 5,
             x: 'center',

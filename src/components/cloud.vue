@@ -1,3 +1,4 @@
+/**热点新闻词云图**/
 <template>
   <div class="com-container">
     <div class="com-chart" ref="cloud_ref"></div>

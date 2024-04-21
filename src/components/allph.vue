@@ -1,3 +1,4 @@
+/**亚洲运动会金牌总数排行榜**/
 <template>
   <div class="com-container">
     <div class="com-chart" ref="all_ref"></div>
@@ -32,7 +33,7 @@ export default {
       const option = {
         backgroundColor: '#F5F5F5',
         title: {
-          text: '冬残奥会金牌总数排行榜',
+          text: '亚洲运动会金牌总数排行榜',
           subtext: '数据来源：维基百科',
           itemGap: textfontsize + 4,
           x: 'center',
@@ -77,7 +78,7 @@ export default {
           axisTick: {
             show: false
           },
-          data: ['德国', '挪威', '美国', '奥地利', '俄罗斯', '芬兰', '法国', '加拿大', '瑞士', '乌克兰'],
+          data: ['中国', '日本', '韩国', '伊朗', '印度', '哈萨克斯坦', '泰国', '印度尼西亚', '朝鲜', '中华台北'],
           axisLabel: {
             fontSize: 14 + textfontsize,
             show: true
@@ -87,7 +88,7 @@ export default {
           barWidth: 24 + textfontsize,
           name: '金牌总数',
           type: 'bar',
-          data: [141, 140, 115, 109, 84, 79, 66, 59, 53, 38].map((item, i) => {
+          data: [1674, 1084, 788, 192, 181, 165, 144, 129, 121, 118].map((item, i) => {
             var itemStyle
             itemStyle = {
               color: i > 40 ? colorList[10] : colorList[i]

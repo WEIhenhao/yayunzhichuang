@@ -1,3 +1,4 @@
+/**各性别奖牌分布**/
 <template>
   <div class="com-container">
     <div class="com-chart" ref="echarts10_ref"></div>
