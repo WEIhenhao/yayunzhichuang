@@ -1,5 +1,5 @@
 <template>
-<div class="screen-container" style="background: blue!important;">
+<div class="screen-container" style="background: #9494d3!important;">
   <div class="screen-head" style="background: linear-gradient(to bottom, rgb(120,39,248), rgb(255,255,255));!important;">
     <div class="head-left">
       <div style="height: 100%;border-radius: 5px; position: absolute;" class="log-bg">
@@ -11,19 +11,16 @@
        <div class="title_">
          <div class="title_">
            <span class="iconfont" style="font-size: 50px;color: white;font-family: 'Berlin Sans FB'">&#xe644;</span>
-           <span style="color: white;font-size: 40px">亚洲运动会可视化系统</span>
+           <span style="color: white;font-size: 40px;font-family: 'Berlin Sans FB'">亚洲运动会可视化系统</span>
          </div>
        </div>
       </div>
       <div class="tag_a">
         <div class="tabbar"><div class="tabbar_">
-        <span class="iconfont" style="font-size: 25px;">&#xe63a;</span>
         <a href="http://127.0.0.1:8080" class="tag_aa">亚洲亚运会史</a></div></div>
         <div class="tabbar"><div class="tabbar_">
-        <span class="iconfont" style="font-size: 25px;">&#xe640;</span>
         <a href="http://127.0.0.1:8080/screen1" class="tag_aa">中国亚运会史</a></div></div>
         <div class="tabbar"><div class="tabbar_">
-        <span class="iconfont" style="font-size: 25px;">&#xe64a;</span>
         <a href="http://127.0.0.1:8080/screen2" class="tag_aa">杭州亚运会</a></div></div>
       </div>
     </div>
